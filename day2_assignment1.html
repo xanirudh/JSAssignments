@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Assignment 1</title>
+        </head>
+
+
+        
+        <body>
+            <h2>Assignment 1 (Day 2)</h2>
+            
+            
+            <script>
+
+                var today = new Date();
+                
+                
+                var d_names = ["Sunday","Monday", "Tuesday", "Wednesday", 
+"Thursday", "Friday", "Saturday"];
+var curr_day  = today.getDay();
+var date = 'Today is :'+' '+d_names[curr_day]+' '+' '+' '+'And current time is :'+' '+today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                </script>
+                 <button type="button" onclick="document.getElementById('p1').innerHTML= date">
+                    Click to display current date and time
+                </button>
+                <p id="p1"></p>
+
+
+
+
+            
+        </body>
+    
+</html>
